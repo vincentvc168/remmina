@@ -1,7 +1,7 @@
 ---
 services:
   remmina:
-    image: lscr.io/linuxserver/remmina:latest
+    image: ghcr.io/vincentvc168/remmina:latest
     container_name: remmina
     environment:
       - PUID=1000
